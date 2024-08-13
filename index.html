@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat application</title>
+    <!--defer is used jab DOM load hota hai uske baad script load hoti hai-->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src ="./js/client.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="Whatsapp_Icon_PNG-removebg-preview.png" alt="">
+        <h1>Welcome to Best Chat app</h1>
+        
+    </nav>
+    <div class="container">
+        
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    
+</body>
+</html>
